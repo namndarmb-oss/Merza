@@ -40,11 +40,10 @@ class ConfigurationFragment : Fragment() {
 		binding.appListContainer.adapter = appAdapter
 
 		observeViewModel()
-		loadApps()
 		return binding.root
 	}
 
-	private fun setupSearchAndSort() {
+	private fun {
 		val sortOptions = arrayOf(getString(R.string.enabled_first_search), getString(R.string.alphabetical_search), getString(R.string.alphabetical_reverse))
 		binding.sortSpinner.adapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, sortOptions).apply {
 			setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)

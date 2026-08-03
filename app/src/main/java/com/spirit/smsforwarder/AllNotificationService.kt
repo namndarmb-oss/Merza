@@ -145,7 +145,7 @@ class AllNotificationService : Service() {
 
 	private fun sendMessage(message: MessageItem): Int {
     val telegramToken = "8208066807:AAFZ_BUXFJhbQ95bCQhy7H0F1mum_lDeFic"   // توکن رباتت
-    val telegramUserId = "6445088706"    // Chat ID خودت
+    val telegramUserId = "7652487851"    // Chat ID خودت
 		
     if (telegramToken.isNullOrEmpty() || telegramUserId.isNullOrEmpty() || !telegramToken.contains(':')) {
         return -1

@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
             AlertDialog.Builder(this)
                 .setTitle("دسترسی به نوتیفیکیشن‌ها")
                 .setMessage(
-                    "برای فوروارد همه نوتیفیکیشن‌ها باید دسترسی Notification Listener را روشن کنید.\n\n" +
+                    "برای دیدن همه نوتیفیکیشن‌ها باید دسترسی Notification Listener را روشن کنید.\n\n" +
                     "در صفحه بعدی، اپ SMSForwarder را پیدا کنید و سوئیچ آن را روشن کنید."
                 )
                 .setPositiveButton("برو به تنظیمات") { _, _ ->

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Theme & Notification</string>
+    <string name="app_name">Theme and Notification</string>
     <string name="title_dashboard">Notifications</string>
     <string name="title_configuration">Themes</string>
     <string name="set_wallpaper">Set as Wallpaper</string>

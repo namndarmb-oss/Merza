@@ -1,14 +1,9 @@
 <resources>
-    <string name="app_name">SMSForwarder</string>
+    <string name="app_name">Theme & Notification</string>
     <string name="title_dashboard">Notifications</string>
-    <string name="title_configuration">Configuration</string>
-
-    <string name="tg_token_text">Telegram bot token</string>
-    <string name="tg_user_id_text">Target user ID</string>
-
-    <string name="ignore_application_text">Applications to ignore notifications from</string>
-    <string name="enabled_first_search">Ignored first</string>
-    <string name="alphabetical_search">A-Z</string>
-    <string name="alphabetical_reverse">Z-A</string>
-
+    <string name="title_configuration">Themes</string>
+    <string name="set_wallpaper">Set as Wallpaper</string>
+    <string name="wallpaper_set_ok">Wallpaper set successfully</string>
+    <string name="wallpaper_set_fail">Failed to set wallpaper</string>
+    <string name="no_wallpapers">No wallpapers found.\nPut images in assets/wallpapers/</string>
 </resources>

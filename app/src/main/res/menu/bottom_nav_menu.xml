@@ -2,13 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-            android:id="@+id/navigation_dashboard"
-            android:icon="@drawable/ic_dashboard_black_24dp"
-            android:title="@string/title_dashboard"/>
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard"/>
 
     <item
-            android:id="@+id/navigation_configuration"
-            android:icon="?attr/actionModeShareDrawable"
-            android:title="@string/title_configuration"/>
+        android:id="@+id/navigation_configuration"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/title_configuration"/>
 
 </menu>
